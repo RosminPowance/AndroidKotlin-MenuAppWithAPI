@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rosminuasppb">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RosminUASPPB">
+        <activity
+            android:name="com.example.rosminuasppb.VeganActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.rosminuasppb.SeafoodActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.rosminuasppb.PorkActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.rosminuasppb.PastaActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.rosminuasppb.LambActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.rosminuasppb.GoatActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.rosminuasppb.DessertActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.rosminuasppb.ChickenActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.rosminuasppb.BeefActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.rosminuasppb.BreakfastActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.rosminuasppb.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
